@@ -196,7 +196,6 @@
 
 .text-block__heading {
   font-family: var(--main-font-family);
-  font-weight: bold;
   font-size: var(--main-text-size);
   line-height: var(--main-line-height);
   text-align: start;
@@ -220,8 +219,7 @@
 
 .text-block__subheading {
   margin-block-start: calc(2 * var(--main-gap));
-  font-family: var(--main-font-family);
-  font-weight: bold;
+  font-weight: 400;
   font-size: var(--main-text-size);
   line-height: var(--main-line-height);
   text-align: start;
