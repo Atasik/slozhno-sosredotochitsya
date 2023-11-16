@@ -126,6 +126,7 @@
   color: var(--logo-color);
   font-family: var(--main-font-family);
   font-size: var(--logo-size);
+  line-height: 0.825;
   text-shadow: 2px 2px 0px var(--accent-color);
 }
 
