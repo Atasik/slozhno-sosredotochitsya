@@ -12,18 +12,11 @@
   --main-text-color: #f1b2ce;
   --main-heading-color: #000028;
   --section-heading-color: #ff0070;
+  --nav-hover-color: rgb(255 0 112 / 0.4);
 
-  background-image: url(../images/cover-image-dark.png);
+  --background-image: url(../images/cover-image-dark.png);
 }
 
 .theme_dark .header__rec {
   display: block;
-}
-
-.theme_dark .header__theme-menu-button_active {
-  border: 1px solid var(--nav-color);
-}
-
-.theme_dark .header__theme-menu-button:hover {
-  --nav-hover-color: rgb(255 0 112 / 0.4);
 }
