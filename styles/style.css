@@ -123,18 +123,14 @@
   position: relative;
   justify-self: center;
   align-self: center;
-  color: var(--footer-logo-color);
+  color: var(--logo-color);
   font-family: var(--main-font-family);
-  font-size: var(--footer-logo-size);
-  line-height: 0.825;
+  font-size: var(--logo-size);
   text-shadow: 2px 2px 0px var(--accent-color);
 }
 
 .header__logo {
   justify-self: start;
-  color: var(--header-logo-color);
-  font-size: var(--header-logo-size);
-  line-height: 0.825;
   text-shadow: 4px 4px 0px var(--accent-color);
 }
 
@@ -254,7 +250,6 @@
 
 @media (width >= 768px) {
   .header__logo {
-    position: relative;
     inset-inline-start: calc(-1 * var(--main-gap));
   }
 
